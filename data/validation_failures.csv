@@ -1,0 +1,14 @@
+rule_id,severity,table,column,message
+DQ-01,CRITICAL,financials,company_id,Primary key missing
+DQ-02,CRITICAL,financials,company_id,Duplicate primary key
+DQ-07,WARNING,financials,ticker,Invalid ticker
+DQ-08,WARNING,financials,year,Year missing
+DQ-09,CRITICAL,financials,company_id,Company data missing
+DQ-10,WARNING,financials,sales,Negative sales value
+DQ-11,WARNING,financials,opm,Incorrect OPM
+DQ-11,WARNING,financials,opm,Incorrect OPM
+DQ-12,WARNING,balance_sheet,balance,Balance mismatch
+DQ-12,WARNING,balance_sheet,balance,Balance mismatch
+DQ-13,WARNING,financials,profit,Profit calculation mismatch
+DQ-14,WARNING,financials,year,Financial period missing
+DQ-15,WARNING,financials,currency,Invalid currency

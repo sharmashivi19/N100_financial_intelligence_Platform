@@ -1,0 +1,5 @@
+company_id,ticker,sales,operating_profit,opm,assets,liabilities,equity,revenue,expense,profit,year,currency
+1,TCS,1000,200,20,1000,600,400,1000,800,200,2024,INR
+2,INFY,-500,100,80,500,300,200,500,400,50,2024,USD
+2,abc,700,100,50,800,500,200,700,600,100,2024,XYZ
+,TATA,200,20,10,100,50,40,200,180,20,,INR
