@@ -56,6 +56,20 @@ def normalize_ticker(ticker):
         " ",
         ""
     )
-
-
     return ticker
+import sqlite3
+
+
+def get_connection():
+
+    conn = sqlite3.connect(
+        "database/nifty100.db"
+    )
+
+
+    conn.execute(
+        "PRAGMA foreign_keys = ON"
+    )
+
+
+    return conn
