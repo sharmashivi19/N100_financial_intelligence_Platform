@@ -1,0 +1,11 @@
+table_name,row_count,status
+companies,92,SUCCESS
+financials,1276,SUCCESS
+balance_sheet,1312,SUCCESS
+cash_flow,1187,SUCCESS
+stock_prices,5519,SUCCESS
+ratios,1183,SUCCESS
+market_cap,551,SUCCESS
+sector,91,SUCCESS
+documents,1585,SUCCESS
+peer_groups,55,SUCCESS

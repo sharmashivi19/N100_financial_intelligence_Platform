@@ -73,3 +73,123 @@ def get_connection():
 
 
     return conn
+import pandas as pd
+import sqlite3
+import os
+
+
+def get_connection():
+
+    conn = sqlite3.connect(
+        "database/nifty100.db"
+    )
+
+    # Enable foreign key checking
+    conn.execute(
+        "PRAGMA foreign_keys = ON"
+    )
+
+    return conn
+
+
+
+def load_excel(file_path, table_name):
+
+    print("\nOpening file:", file_path)
+
+
+    # Check file exists
+    if not os.path.exists(file_path):
+
+        raise FileNotFoundError(
+            f"File not found: {file_path}"
+        )
+
+
+    # Check file size
+    file_size = os.path.getsize(file_path)
+
+    if file_size == 0:
+
+        raise Exception(
+            f"File is empty: {file_path}"
+        )
+
+
+    # Read CSV files
+    if file_path.lower().endswith(".csv"):
+
+        print("Reading CSV file")
+
+        df = pd.read_csv(
+            file_path
+        )
+
+
+    # Read Excel files
+    elif file_path.lower().endswith(".xlsx"):
+
+        print("Reading Excel file")
+
+        try:
+
+         df = pd.read_excel(
+    file_path,
+    engine="openpyxl",
+    header=1
+)
+
+        except Exception as e:
+
+            print(
+                "Excel reading failed:",
+                e
+            )
+
+            raise
+
+
+    else:
+
+        raise Exception(
+            f"Unsupported file type: {file_path}"
+        )
+
+
+    print(
+        "Rows loaded:",
+        len(df)
+    )
+
+
+    # Connect database
+
+    conn = get_connection()
+
+
+    try:
+
+        df.to_sql(
+            table_name,
+            conn,
+            if_exists="append",
+            index=False
+        )
+
+
+    except Exception as e:
+
+        print(
+            "Database insert failed:",
+            e
+        )
+
+        raise
+
+
+    finally:
+
+        conn.close()
+
+
+    return len(df)
