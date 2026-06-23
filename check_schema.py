@@ -1,23 +1,27 @@
 import sqlite3
 
-
 conn = sqlite3.connect(
     "database/nifty100.db"
 )
 
 cursor = conn.cursor()
 
+tables = cursor.execute(
+    """
+    SELECT name
+    FROM sqlite_master
+    WHERE type='table';
+    """
+).fetchall()
 
-cursor.execute(
-    "PRAGMA table_info(companies)"
-)
+for table in tables:
+    print("\nTABLE:", table[0])
 
+    columns = cursor.execute(
+        f"PRAGMA table_info({table[0]});"
+    ).fetchall()
 
-columns = cursor.fetchall()
-
-
-for col in columns:
-    print(col)
-
+    for col in columns:
+        print(col[1])
 
 conn.close()

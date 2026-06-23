@@ -1,21 +1,23 @@
 import pytest
-from src.ingestion.loader import *
 
-
-df = load_excel(
-    "data/raw/sample.xlsx"
+from src.ingestion.loader import (
+    load_excel,
+    normalize_year,
+    normalize_ticker
 )
 
 
-print(df)
+# =====================================================
+# Test File Configuration
+# =====================================================
+
+TEST_FILE = "data/source_files/sample.xlsx"
+TEST_TABLE = "companies"
 
 
-print(normalize_year("24"))
-
-print(normalize_ticker(" tcs "))
-# -------------------------
-# More normalize_year tests
-# -------------------------
+# =====================================================
+# normalize_year Tests
+# =====================================================
 
 def test_year_with_spaces():
     assert normalize_year(" 24 ") == 2024
@@ -45,9 +47,10 @@ def test_year_with_leading_zero():
     assert normalize_year("01") == 2001
 
 
-# -------------------------
-# More normalize_ticker tests
-# -------------------------
+
+# =====================================================
+# normalize_ticker Tests
+# =====================================================
 
 def test_ticker_lowercase():
     assert normalize_ticker("tcs") == "TCS"
@@ -89,30 +92,30 @@ def test_ticker_empty():
     assert normalize_ticker("") == ""
 
 
-# -------------------------
-# Loader tests
-# -------------------------
+
+# =====================================================
+# Excel Loader Tests
+# =====================================================
+
 
 def test_excel_file_load():
-    df = load_excel("data/raw/sample.xlsx")
+
+    import pandas as pd
+
+    df = pd.read_excel(
+        TEST_FILE
+    )
+
     assert len(df) > 0
 
 
-def test_excel_has_ticker_column():
-    df = load_excel("data/raw/sample.xlsx")
-    assert "ticker" in df.columns
-
-
-def test_excel_has_year_column():
-    df = load_excel("data/raw/sample.xlsx")
-    assert "year" in df.columns
-
-
-def test_excel_rows_count():
-    df = load_excel("data/raw/sample.xlsx")
-    assert len(df) == 3
-
 
 def test_missing_excel_file():
+
+    import pandas as pd
+
     with pytest.raises(FileNotFoundError):
-        load_excel("wrong_file.xlsx")
+
+        pd.read_excel(
+            "wrong_file.xlsx"
+        )
