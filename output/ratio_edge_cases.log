@@ -1,0 +1,5 @@
+Day 13
+------------------------
+ROE/ROCE comparison skipped.
+Reason: companies table does not contain company_id.
+Financial sector carve-out cannot be implemented because broad_sector is missing.
