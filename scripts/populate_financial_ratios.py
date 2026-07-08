@@ -118,19 +118,58 @@ df["capex_cr"] = df.apply(
     axis=1
 )
 # -----------------------------
-# Revenue CAGR (Placeholder)
+# -----------------------------
+df = df.sort_values(
+    ["company_id", "year"]
+)
+
+# -----------------------------
 # -----------------------------
 df["revenue_cagr_5yr"] = None
-
-# -----------------------------
-# PAT CAGR (Placeholder)
-# -----------------------------
 df["pat_cagr_5yr"] = None
+df["eps_cagr_5yr"] = None
 
 # -----------------------------
-# EPS CAGR (Placeholder)
 # -----------------------------
-df["eps_cagr_5yr"] = None
+for company in df["company_id"].unique():
+
+    company_df = df[
+        df["company_id"] == company
+    ].sort_values("year")
+
+    years = company_df.index.tolist()
+
+    for i in range(5, len(years)):
+
+        current = years[i]
+        previous = years[i-5]
+
+        # Revenue CAGR
+        rev = revenue_cagr(
+            company_df.loc[previous, "sales"],
+            company_df.loc[current, "sales"],
+            5
+        )
+
+        df.loc[current, "revenue_cagr_5yr"] = rev["value"]
+
+        # PAT CAGR
+        pat = pat_cagr(
+            company_df.loc[previous, "net_profit"],
+            company_df.loc[current, "net_profit"],
+            5
+        )
+
+        df.loc[current, "pat_cagr_5yr"] = pat["value"]
+
+        # EPS CAGR
+        eps = eps_cagr(
+            company_df.loc[previous, "eps"],
+            company_df.loc[current, "eps"],
+            5
+        )
+
+        df.loc[current, "eps_cagr_5yr"] = eps["value"]
 df["composite_quality_score"] = (
 
     df["return_on_equity_pct"].fillna(0)
