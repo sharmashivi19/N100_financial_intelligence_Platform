@@ -5,43 +5,71 @@ import streamlit as st
 DATABASE = "database/nifty100.db"
 
 
+def get_connection():
+    return sqlite3.connect(DATABASE)
+
+
+# ---------------------------------------------------
+# Companies
+# ---------------------------------------------------
+
 @st.cache_data(ttl=600)
 def get_companies():
-    conn = sqlite3.connect(DATABASE)
-    df = pd.read_sql("SELECT * FROM companies", conn)
+    conn = get_connection()
+
+    df = pd.read_sql(
+        "SELECT * FROM companies",
+        conn
+    )
+
     conn.close()
     return df
 
+
+# ---------------------------------------------------
+# Financial Ratios
+# ---------------------------------------------------
 
 @st.cache_data(ttl=600)
-def get_ratios(ticker, year=None):
-    conn = sqlite3.connect(DATABASE)
+def get_ratios(ticker=None, year=None):
 
-    if year is None:
-        query = f"""
-        SELECT *
-        FROM financial_ratios
-        WHERE company_id='{ticker}'
-        """
-    else:
-        query = f"""
-        SELECT *
-        FROM financial_ratios
-        WHERE company_id='{ticker}'
-        AND year='{year}'
-        """
+    conn = get_connection()
+
+    query = "SELECT * FROM financial_ratios"
+
+    conditions = []
+
+    if ticker is not None:
+        conditions.append(f"company_id='{ticker}'")
+
+    if year is not None:
+        conditions.append(f"year='{year}'")
+
+    if conditions:
+        query += " WHERE " + " AND ".join(conditions)
 
     df = pd.read_sql(query, conn)
+
     conn.close()
+
     return df
 
+
+# ---------------------------------------------------
+# Profit & Loss
+# ---------------------------------------------------
 
 @st.cache_data(ttl=600)
 def get_pl(ticker):
-    conn = sqlite3.connect(DATABASE)
+
+    conn = get_connection()
 
     df = pd.read_sql(
-        f"SELECT * FROM financials WHERE company_id='{ticker}'",
+        f"""
+        SELECT *
+        FROM financials
+        WHERE company_id='{ticker}'
+        """,
         conn
     )
 
@@ -49,14 +77,22 @@ def get_pl(ticker):
 
     return df
 
+
+# ---------------------------------------------------
+# Balance Sheet
+# ---------------------------------------------------
 
 @st.cache_data(ttl=600)
 def get_bs(ticker):
 
-    conn = sqlite3.connect(DATABASE)
+    conn = get_connection()
 
     df = pd.read_sql(
-        f"SELECT * FROM balance_sheet WHERE company_id='{ticker}'",
+        f"""
+        SELECT *
+        FROM balance_sheet
+        WHERE company_id='{ticker}'
+        """,
         conn
     )
 
@@ -64,14 +100,22 @@ def get_bs(ticker):
 
     return df
 
+
+# ---------------------------------------------------
+# Cash Flow
+# ---------------------------------------------------
 
 @st.cache_data(ttl=600)
 def get_cf(ticker):
 
-    conn = sqlite3.connect(DATABASE)
+    conn = get_connection()
 
     df = pd.read_sql(
-        f"SELECT * FROM cash_flow WHERE company_id='{ticker}'",
+        f"""
+        SELECT *
+        FROM cash_flow
+        WHERE company_id='{ticker}'
+        """,
         conn
     )
 
@@ -80,18 +124,43 @@ def get_cf(ticker):
     return df
 
 
+# ---------------------------------------------------
+# Financials (All Companies)
+# ---------------------------------------------------
+
+@st.cache_data(ttl=600)
+def get_financials():
+
+    conn = get_connection()
+
+    df = pd.read_sql(
+        "SELECT * FROM financials",
+        conn
+    )
+
+    conn.close()
+
+    return df
+
+
+# ---------------------------------------------------
+# Peer Groups
+# ---------------------------------------------------
+
 @st.cache_data(ttl=600)
 def get_sectors():
 
-    conn = sqlite3.connect(DATABASE)
+    conn = get_connection()
 
-    try:
-        df = pd.read_sql(
-            "SELECT DISTINCT peer_group_name FROM peer_percentiles",
-            conn
-        )
-    finally:
-        conn.close()
+    df = pd.read_sql(
+        """
+        SELECT DISTINCT peer_group_name
+        FROM peer_percentiles
+        """,
+        conn
+    )
+
+    conn.close()
 
     return df
 
@@ -99,7 +168,7 @@ def get_sectors():
 @st.cache_data(ttl=600)
 def get_peers(group_name):
 
-    conn = sqlite3.connect(DATABASE)
+    conn = get_connection()
 
     df = pd.read_sql(
         f"""
@@ -115,21 +184,24 @@ def get_peers(group_name):
     return df
 
 
+# ---------------------------------------------------
+# Valuation
+# ---------------------------------------------------
+
 @st.cache_data(ttl=600)
 def get_valuation(ticker):
 
-    conn = sqlite3.connect(DATABASE)
+    conn = get_connection()
 
-    try:
-        df = pd.read_sql(
-            f"""
-            SELECT *
-            FROM financial_ratios
-            WHERE company_id='{ticker}'
-            """,
-            conn
-        )
-    finally:
-        conn.close()
+    df = pd.read_sql(
+        f"""
+        SELECT *
+        FROM financial_ratios
+        WHERE company_id='{ticker}'
+        """,
+        conn
+    )
+
+    conn.close()
 
     return df
