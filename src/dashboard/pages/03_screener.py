@@ -207,6 +207,9 @@ st.success(
 # -----------------------------
 # Display Results
 # -----------------------------
+# -----------------------------
+# Display Results
+# -----------------------------
 show = filtered[
     [
         "company_id",
@@ -228,7 +231,7 @@ show = filtered[
 
 st.dataframe(
     show,
-    use_container_width=True
+    width="stretch"
 )
 
 # -----------------------------

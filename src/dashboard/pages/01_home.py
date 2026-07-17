@@ -95,7 +95,7 @@ fig = px.pie(
 
 st.plotly_chart(
     fig,
-    use_container_width=True
+    width="stretch"
 )
 top5 = ratios.sort_values(
 

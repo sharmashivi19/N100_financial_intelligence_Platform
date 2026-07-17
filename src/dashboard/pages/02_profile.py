@@ -89,7 +89,10 @@ fig = px.line(
 
 )
 
-st.plotly_chart(fig)
+st.plotly_chart(
+    fig,
+    width="stretch"
+)
 if company_ratios.empty:
 
     st.warning(
