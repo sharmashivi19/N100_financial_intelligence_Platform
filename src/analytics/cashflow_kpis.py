@@ -165,25 +165,30 @@ df["deleveraging_flag"] = np.where(
 )
 
 # -----------------------------------------
-# Capital Allocation Label
+# Capital Allocation Pattern
 # -----------------------------------------
 
-def capital_label(row):
+capital = pd.read_csv("output/capital_allocation.csv")
 
-    if row["distress_flag"] == "Yes":
-        return "Distress"
-
-    if row["deleveraging_flag"] == "Yes":
-        return "Deleveraging"
-
-    return "Stable"
-
-
-df["capital_allocation_label"] = df.apply(
-    capital_label,
-    axis=1
+capital = (
+    capital
+    .sort_values("year")
+    .groupby("company_id", as_index=False)
+    .last()[["company_id", "pattern_label"]]
 )
 
+df = df.merge(
+    capital,
+    on="company_id",
+    how="left"
+)
+
+df.rename(
+    columns={
+        "pattern_label": "capital_allocation_label"
+    },
+    inplace=True
+)
 # -----------------------------------------
 # Final Output
 # -----------------------------------------
