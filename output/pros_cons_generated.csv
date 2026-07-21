@@ -1,0 +1,492 @@
+company_id,type,rule_id,text,confidence_pct
+ABB,pro,P1,Consistently high return on equity above 20% demonstrates exceptional capital efficiency.,90
+ABB,pro,P2,Strong free cash flow generation signals healthy business fundamentals.,85
+ABB,pro,P7,Very high interest coverage ratio reflects negligible financial stress from debt servicing.,88
+ABB,con,C5,Revenue growth below 5% suggests weak business momentum.,85
+ADANIENSOL,pro,P2,Strong free cash flow generation signals healthy business fundamentals.,85
+ADANIENSOL,pro,P11,Revenue growing slower than profits shows improving operating leverage and scale benefits.,82
+ADANIENSOL,con,C1,Debt-to-equity ratio of 2.93 is elevated.,90
+ADANIENSOL,con,C10,Return on capital employed below 10% suggests weak capital efficiency.,82
+ADANIENSOL,con,C9,EPS has declined for three consecutive years.,85
+ADANIENT,pro,P4,Revenue growing above 15% CAGR reflects strong business momentum.,88
+ADANIENT,pro,P6,Profit compounding above 20% creates shareholder value.,90
+ADANIENT,pro,P9,Earnings per share growing above 15% CAGR indicates strong earnings quality and compounding.,90
+ADANIENT,pro,P10,Return on equity improving for 3 consecutive years shows strengthening business quality.,88
+ADANIENT,con,C2,Negative free cash flow raises concern about cash generation.,85
+ADANIGREEN,pro,P4,Revenue growing above 15% CAGR reflects strong business momentum.,88
+ADANIGREEN,con,C1,Debt-to-equity ratio of 6.60 is elevated.,90
+ADANIGREEN,con,C2,Negative free cash flow raises concern about cash generation.,85
+ADANIPORTS,pro,P2,Strong free cash flow generation signals healthy business fundamentals.,85
+ADANIPOWER,pro,P1,Consistently high return on equity above 20% demonstrates exceptional capital efficiency.,90
+ADANIPOWER,pro,P2,Strong free cash flow generation signals healthy business fundamentals.,85
+ADANIPOWER,pro,P4,Revenue growing above 15% CAGR reflects strong business momentum.,88
+ADANIPOWER,pro,P10,Return on equity improving for 3 consecutive years shows strengthening business quality.,88
+AMBUJACEM,pro,P7,Very high interest coverage ratio reflects negligible financial stress from debt servicing.,88
+AMBUJACEM,con,C2,Negative free cash flow raises concern about cash generation.,85
+AMBUJACEM,con,C5,Revenue growth below 5% suggests weak business momentum.,85
+APOLLOHOSP,pro,P2,Strong free cash flow generation signals healthy business fundamentals.,85
+APOLLOHOSP,pro,P6,Profit compounding above 20% creates shareholder value.,90
+APOLLOHOSP,pro,P8,Consistent dividend yield above 2% backed by positive free cash flow.,85
+APOLLOHOSP,pro,P9,Earnings per share growing above 15% CAGR indicates strong earnings quality and compounding.,90
+ASIANPAINT,pro,P1,Consistently high return on equity above 20% demonstrates exceptional capital efficiency.,90
+ASIANPAINT,pro,P2,Strong free cash flow generation signals healthy business fundamentals.,85
+ASIANPAINT,pro,P7,Very high interest coverage ratio reflects negligible financial stress from debt servicing.,88
+ASIANPAINT,pro,P8,Consistent dividend yield above 2% backed by positive free cash flow.,85
+ASIANPAINT,con,C5,Revenue growth below 5% suggests weak business momentum.,85
+ATGL,pro,P4,Revenue growing above 15% CAGR reflects strong business momentum.,88
+ATGL,pro,P7,Very high interest coverage ratio reflects negligible financial stress from debt servicing.,88
+ATGL,pro,P11,Revenue growing slower than profits shows improving operating leverage and scale benefits.,82
+AXISBANK,pro,P6,Profit compounding above 20% creates shareholder value.,90
+AXISBANK,pro,P9,Earnings per share growing above 15% CAGR indicates strong earnings quality and compounding.,90
+AXISBANK,con,C1,Debt-to-equity ratio of 8.25 is elevated.,90
+AXISBANK,con,C2,Negative free cash flow raises concern about cash generation.,85
+AXISBANK,con,C10,Return on capital employed below 10% suggests weak capital efficiency.,82
+BAJAJ-AUTO,pro,P1,Consistently high return on equity above 20% demonstrates exceptional capital efficiency.,90
+BAJAJ-AUTO,pro,P2,Strong free cash flow generation signals healthy business fundamentals.,85
+BAJAJ-AUTO,pro,P7,Very high interest coverage ratio reflects negligible financial stress from debt servicing.,88
+BAJAJ-AUTO,pro,P8,Consistent dividend yield above 2% backed by positive free cash flow.,85
+BAJAJ-AUTO,pro,P11,Revenue growing slower than profits shows improving operating leverage and scale benefits.,82
+BAJAJFINSV,pro,P1,Consistently high return on equity above 20% demonstrates exceptional capital efficiency.,90
+BAJAJFINSV,pro,P4,Revenue growing above 15% CAGR reflects strong business momentum.,88
+BAJAJFINSV,pro,P6,Profit compounding above 20% creates shareholder value.,90
+BAJAJFINSV,pro,P9,Earnings per share growing above 15% CAGR indicates strong earnings quality and compounding.,90
+BAJAJFINSV,con,C1,Debt-to-equity ratio of 4.79 is elevated.,90
+BAJAJFINSV,con,C2,Negative free cash flow raises concern about cash generation.,85
+BAJAJFINSV,con,C8,Debt-to-equity ratio has increased for three consecutive years.,85
+BAJAJHLDNG,pro,P2,Strong free cash flow generation signals healthy business fundamentals.,85
+BAJAJHLDNG,pro,P4,Revenue growing above 15% CAGR reflects strong business momentum.,88
+BAJAJHLDNG,pro,P7,Very high interest coverage ratio reflects negligible financial stress from debt servicing.,88
+BAJAJHLDNG,pro,P8,Consistent dividend yield above 2% backed by positive free cash flow.,85
+BAJAJHLDNG,pro,P9,Earnings per share growing above 15% CAGR indicates strong earnings quality and compounding.,90
+BAJAJHLDNG,pro,P11,Revenue growing slower than profits shows improving operating leverage and scale benefits.,82
+BAJAJHLDNG,pro,P10,Return on equity improving for 3 consecutive years shows strengthening business quality.,88
+BAJFINANCE,pro,P4,Revenue growing above 15% CAGR reflects strong business momentum.,88
+BAJFINANCE,pro,P6,Profit compounding above 20% creates shareholder value.,90
+BAJFINANCE,pro,P7,Very high interest coverage ratio reflects negligible financial stress from debt servicing.,88
+BAJFINANCE,pro,P9,Earnings per share growing above 15% CAGR indicates strong earnings quality and compounding.,90
+BAJFINANCE,con,C1,Debt-to-equity ratio of 3.82 is elevated.,90
+BAJFINANCE,con,C2,Negative free cash flow raises concern about cash generation.,85
+BANKBARODA,pro,P6,Profit compounding above 20% creates shareholder value.,90
+BANKBARODA,pro,P9,Earnings per share growing above 15% CAGR indicates strong earnings quality and compounding.,90
+BANKBARODA,pro,P10,Return on equity improving for 3 consecutive years shows strengthening business quality.,88
+BANKBARODA,con,C1,Debt-to-equity ratio of 12.14 is elevated.,90
+BANKBARODA,con,C2,Negative free cash flow raises concern about cash generation.,85
+BANKBARODA,con,C10,Return on capital employed below 10% suggests weak capital efficiency.,82
+BEL,pro,P1,Consistently high return on equity above 20% demonstrates exceptional capital efficiency.,90
+BEL,pro,P7,Very high interest coverage ratio reflects negligible financial stress from debt servicing.,88
+BEL,pro,P10,Return on equity improving for 3 consecutive years shows strengthening business quality.,88
+BEL,con,C2,Negative free cash flow raises concern about cash generation.,85
+BHARTIARTL,pro,P2,Strong free cash flow generation signals healthy business fundamentals.,85
+BHARTIARTL,pro,P6,Profit compounding above 20% creates shareholder value.,90
+BHARTIARTL,pro,P9,Earnings per share growing above 15% CAGR indicates strong earnings quality and compounding.,90
+BHARTIARTL,con,C1,Debt-to-equity ratio of 2.61 is elevated.,90
+BHEL,pro,P11,Revenue growing slower than profits shows improving operating leverage and scale benefits.,82
+BHEL,con,C2,Negative free cash flow raises concern about cash generation.,85
+BHEL,con,C3,Operating margin is weak.,80
+BHEL,con,C5,Revenue growth below 5% suggests weak business momentum.,85
+BHEL,con,C10,Return on capital employed below 10% suggests weak capital efficiency.,82
+BHEL,con,C8,Debt-to-equity ratio has increased for three consecutive years.,85
+BOSCHLTD,pro,P1,Consistently high return on equity above 20% demonstrates exceptional capital efficiency.,90
+BOSCHLTD,pro,P2,Strong free cash flow generation signals healthy business fundamentals.,85
+BOSCHLTD,pro,P6,Profit compounding above 20% creates shareholder value.,90
+BOSCHLTD,pro,P7,Very high interest coverage ratio reflects negligible financial stress from debt servicing.,88
+BOSCHLTD,pro,P8,Consistent dividend yield above 2% backed by positive free cash flow.,85
+BOSCHLTD,pro,P9,Earnings per share growing above 15% CAGR indicates strong earnings quality and compounding.,90
+BOSCHLTD,pro,P10,Return on equity improving for 3 consecutive years shows strengthening business quality.,88
+BPCL,pro,P1,Consistently high return on equity above 20% demonstrates exceptional capital efficiency.,90
+BPCL,pro,P2,Strong free cash flow generation signals healthy business fundamentals.,85
+BPCL,pro,P6,Profit compounding above 20% creates shareholder value.,90
+BPCL,pro,P9,Earnings per share growing above 15% CAGR indicates strong earnings quality and compounding.,90
+BPCL,con,C3,Operating margin is weak.,80
+BRITANNIA,pro,P1,Consistently high return on equity above 20% demonstrates exceptional capital efficiency.,90
+BRITANNIA,pro,P2,Strong free cash flow generation signals healthy business fundamentals.,85
+BRITANNIA,pro,P7,Very high interest coverage ratio reflects negligible financial stress from debt servicing.,88
+CANBK,pro,P2,Strong free cash flow generation signals healthy business fundamentals.,85
+CANBK,pro,P4,Revenue growing above 15% CAGR reflects strong business momentum.,88
+CANBK,pro,P6,Profit compounding above 20% creates shareholder value.,90
+CANBK,pro,P8,Consistent dividend yield above 2% backed by positive free cash flow.,85
+CANBK,pro,P9,Earnings per share growing above 15% CAGR indicates strong earnings quality and compounding.,90
+CANBK,pro,P10,Return on equity improving for 3 consecutive years shows strengthening business quality.,88
+CANBK,con,C1,Debt-to-equity ratio of 14.87 is elevated.,90
+CANBK,con,C10,Return on capital employed below 10% suggests weak capital efficiency.,82
+CHOLAFIN,pro,P4,Revenue growing above 15% CAGR reflects strong business momentum.,88
+CHOLAFIN,pro,P6,Profit compounding above 20% creates shareholder value.,90
+CHOLAFIN,pro,P7,Very high interest coverage ratio reflects negligible financial stress from debt servicing.,88
+CHOLAFIN,pro,P9,Earnings per share growing above 15% CAGR indicates strong earnings quality and compounding.,90
+CHOLAFIN,con,C1,Debt-to-equity ratio of 6.86 is elevated.,90
+CHOLAFIN,con,C2,Negative free cash flow raises concern about cash generation.,85
+CHOLAFIN,con,C8,Debt-to-equity ratio has increased for three consecutive years.,85
+CIPLA,pro,P2,Strong free cash flow generation signals healthy business fundamentals.,85
+CIPLA,pro,P6,Profit compounding above 20% creates shareholder value.,90
+CIPLA,pro,P7,Very high interest coverage ratio reflects negligible financial stress from debt servicing.,88
+CIPLA,pro,P9,Earnings per share growing above 15% CAGR indicates strong earnings quality and compounding.,90
+COALINDIA,pro,P1,Consistently high return on equity above 20% demonstrates exceptional capital efficiency.,90
+COALINDIA,pro,P2,Strong free cash flow generation signals healthy business fundamentals.,85
+COALINDIA,pro,P7,Very high interest coverage ratio reflects negligible financial stress from debt servicing.,88
+COALINDIA,pro,P8,Consistent dividend yield above 2% backed by positive free cash flow.,85
+COALINDIA,pro,P9,Earnings per share growing above 15% CAGR indicates strong earnings quality and compounding.,90
+DABUR,pro,P2,Strong free cash flow generation signals healthy business fundamentals.,85
+DABUR,pro,P7,Very high interest coverage ratio reflects negligible financial stress from debt servicing.,88
+DABUR,pro,P8,Consistent dividend yield above 2% backed by positive free cash flow.,85
+DABUR,pro,P11,Revenue growing slower than profits shows improving operating leverage and scale benefits.,82
+DABUR,con,C8,Debt-to-equity ratio has increased for three consecutive years.,85
+DIVISLAB,pro,P2,Strong free cash flow generation signals healthy business fundamentals.,85
+DIVISLAB,pro,P7,Very high interest coverage ratio reflects negligible financial stress from debt servicing.,88
+DIVISLAB,pro,P11,Revenue growing slower than profits shows improving operating leverage and scale benefits.,82
+DLF,pro,P2,Strong free cash flow generation signals healthy business fundamentals.,85
+DLF,pro,P8,Consistent dividend yield above 2% backed by positive free cash flow.,85
+DLF,pro,P10,Return on equity improving for 3 consecutive years shows strengthening business quality.,88
+DLF,con,C5,Revenue growth below 5% suggests weak business momentum.,85
+DLF,con,C10,Return on capital employed below 10% suggests weak capital efficiency.,82
+DMART,pro,P2,Strong free cash flow generation signals healthy business fundamentals.,85
+DMART,pro,P4,Revenue growing above 15% CAGR reflects strong business momentum.,88
+DMART,pro,P7,Very high interest coverage ratio reflects negligible financial stress from debt servicing.,88
+DMART,pro,P9,Earnings per share growing above 15% CAGR indicates strong earnings quality and compounding.,90
+DMART,pro,P11,Revenue growing slower than profits shows improving operating leverage and scale benefits.,82
+DMART,con,C3,Operating margin is weak.,80
+DRREDDY,pro,P2,Strong free cash flow generation signals healthy business fundamentals.,85
+DRREDDY,pro,P6,Profit compounding above 20% creates shareholder value.,90
+DRREDDY,pro,P7,Very high interest coverage ratio reflects negligible financial stress from debt servicing.,88
+DRREDDY,pro,P9,Earnings per share growing above 15% CAGR indicates strong earnings quality and compounding.,90
+DRREDDY,pro,P10,Return on equity improving for 3 consecutive years shows strengthening business quality.,88
+EICHERMOT,pro,P1,Consistently high return on equity above 20% demonstrates exceptional capital efficiency.,90
+EICHERMOT,pro,P2,Strong free cash flow generation signals healthy business fundamentals.,85
+EICHERMOT,pro,P7,Very high interest coverage ratio reflects negligible financial stress from debt servicing.,88
+EICHERMOT,pro,P8,Consistent dividend yield above 2% backed by positive free cash flow.,85
+EICHERMOT,pro,P9,Earnings per share growing above 15% CAGR indicates strong earnings quality and compounding.,90
+EICHERMOT,pro,P10,Return on equity improving for 3 consecutive years shows strengthening business quality.,88
+EICHERMOT,con,C8,Debt-to-equity ratio has increased for three consecutive years.,85
+GAIL,pro,P2,Strong free cash flow generation signals healthy business fundamentals.,85
+GAIL,pro,P7,Very high interest coverage ratio reflects negligible financial stress from debt servicing.,88
+GAIL,pro,P11,Revenue growing slower than profits shows improving operating leverage and scale benefits.,82
+GAIL,con,C8,Debt-to-equity ratio has increased for three consecutive years.,85
+GODREJCP,pro,P11,Revenue growing slower than profits shows improving operating leverage and scale benefits.,82
+GODREJCP,con,C2,Negative free cash flow raises concern about cash generation.,85
+GODREJCP,con,C4,Company reported a net loss.,95
+GRASIM,pro,P11,Revenue growing slower than profits shows improving operating leverage and scale benefits.,82
+GRASIM,con,C2,Negative free cash flow raises concern about cash generation.,85
+GRASIM,con,C10,Return on capital employed below 10% suggests weak capital efficiency.,82
+GRASIM,con,C8,Debt-to-equity ratio has increased for three consecutive years.,85
+GRASIM,con,C9,EPS has declined for three consecutive years.,85
+HAL,pro,P1,Consistently high return on equity above 20% demonstrates exceptional capital efficiency.,90
+HAL,pro,P2,Strong free cash flow generation signals healthy business fundamentals.,85
+HAL,pro,P6,Profit compounding above 20% creates shareholder value.,90
+HAL,pro,P7,Very high interest coverage ratio reflects negligible financial stress from debt servicing.,88
+HAL,pro,P8,Consistent dividend yield above 2% backed by positive free cash flow.,85
+HAL,pro,P9,Earnings per share growing above 15% CAGR indicates strong earnings quality and compounding.,90
+HAL,con,C8,Debt-to-equity ratio has increased for three consecutive years.,85
+HAVELLS,pro,P2,Strong free cash flow generation signals healthy business fundamentals.,85
+HAVELLS,pro,P4,Revenue growing above 15% CAGR reflects strong business momentum.,88
+HAVELLS,pro,P7,Very high interest coverage ratio reflects negligible financial stress from debt servicing.,88
+HAVELLS,pro,P8,Consistent dividend yield above 2% backed by positive free cash flow.,85
+HAVELLS,pro,P11,Revenue growing slower than profits shows improving operating leverage and scale benefits.,82
+HAVELLS,con,C3,Operating margin is weak.,80
+HCLTECH,pro,P1,Consistently high return on equity above 20% demonstrates exceptional capital efficiency.,90
+HCLTECH,pro,P2,Strong free cash flow generation signals healthy business fundamentals.,85
+HCLTECH,pro,P7,Very high interest coverage ratio reflects negligible financial stress from debt servicing.,88
+HCLTECH,pro,P11,Revenue growing slower than profits shows improving operating leverage and scale benefits.,82
+HCLTECH,pro,P10,Return on equity improving for 3 consecutive years shows strengthening business quality.,88
+HDFCBANK,pro,P2,Strong free cash flow generation signals healthy business fundamentals.,85
+HDFCBANK,pro,P4,Revenue growing above 15% CAGR reflects strong business momentum.,88
+HDFCBANK,pro,P6,Profit compounding above 20% creates shareholder value.,90
+HDFCBANK,pro,P8,Consistent dividend yield above 2% backed by positive free cash flow.,85
+HDFCBANK,pro,P11,Revenue growing slower than profits shows improving operating leverage and scale benefits.,82
+HDFCBANK,con,C1,Debt-to-equity ratio of 6.81 is elevated.,90
+HDFCBANK,con,C6,Interest coverage below 1.5 indicates debt servicing risk.,90
+HDFCBANK,con,C10,Return on capital employed below 10% suggests weak capital efficiency.,82
+HDFCLIFE,pro,P4,Revenue growing above 15% CAGR reflects strong business momentum.,88
+HDFCLIFE,pro,P7,Very high interest coverage ratio reflects negligible financial stress from debt servicing.,88
+HDFCLIFE,pro,P11,Revenue growing slower than profits shows improving operating leverage and scale benefits.,82
+HDFCLIFE,pro,P10,Return on equity improving for 3 consecutive years shows strengthening business quality.,88
+HDFCLIFE,con,C2,Negative free cash flow raises concern about cash generation.,85
+HDFCLIFE,con,C10,Return on capital employed below 10% suggests weak capital efficiency.,82
+HEROMOTOCO,pro,P1,Consistently high return on equity above 20% demonstrates exceptional capital efficiency.,90
+HEROMOTOCO,pro,P2,Strong free cash flow generation signals healthy business fundamentals.,85
+HEROMOTOCO,pro,P7,Very high interest coverage ratio reflects negligible financial stress from debt servicing.,88
+HEROMOTOCO,pro,P11,Revenue growing slower than profits shows improving operating leverage and scale benefits.,82
+HEROMOTOCO,pro,P10,Return on equity improving for 3 consecutive years shows strengthening business quality.,88
+HINDALCO,pro,P2,Strong free cash flow generation signals healthy business fundamentals.,85
+HINDALCO,pro,P6,Profit compounding above 20% creates shareholder value.,90
+HINDALCO,pro,P7,Very high interest coverage ratio reflects negligible financial stress from debt servicing.,88
+HINDALCO,pro,P9,Earnings per share growing above 15% CAGR indicates strong earnings quality and compounding.,90
+HINDUNILVR,pro,P1,Consistently high return on equity above 20% demonstrates exceptional capital efficiency.,90
+HINDUNILVR,pro,P2,Strong free cash flow generation signals healthy business fundamentals.,85
+HINDUNILVR,pro,P7,Very high interest coverage ratio reflects negligible financial stress from debt servicing.,88
+HINDUNILVR,pro,P8,Consistent dividend yield above 2% backed by positive free cash flow.,85
+HINDUNILVR,con,C8,Debt-to-equity ratio has increased for three consecutive years.,85
+ICICIBANK,pro,P2,Strong free cash flow generation signals healthy business fundamentals.,85
+ICICIBANK,pro,P4,Revenue growing above 15% CAGR reflects strong business momentum.,88
+ICICIBANK,pro,P6,Profit compounding above 20% creates shareholder value.,90
+ICICIBANK,pro,P8,Consistent dividend yield above 2% backed by positive free cash flow.,85
+ICICIBANK,pro,P9,Earnings per share growing above 15% CAGR indicates strong earnings quality and compounding.,90
+ICICIBANK,pro,P10,Return on equity improving for 3 consecutive years shows strengthening business quality.,88
+ICICIBANK,con,C1,Debt-to-equity ratio of 6.45 is elevated.,90
+ICICIBANK,con,C6,Interest coverage below 1.5 indicates debt servicing risk.,90
+ICICIBANK,con,C10,Return on capital employed below 10% suggests weak capital efficiency.,82
+ICICIGI,pro,P2,Strong free cash flow generation signals healthy business fundamentals.,85
+ICICIGI,pro,P4,Revenue growing above 15% CAGR reflects strong business momentum.,88
+ICICIGI,pro,P8,Consistent dividend yield above 2% backed by positive free cash flow.,85
+ICICIGI,con,C6,Interest coverage below 1.5 indicates debt servicing risk.,90
+ICICIPRULI,pro,P2,Strong free cash flow generation signals healthy business fundamentals.,85
+ICICIPRULI,pro,P4,Revenue growing above 15% CAGR reflects strong business momentum.,88
+ICICIPRULI,pro,P7,Very high interest coverage ratio reflects negligible financial stress from debt servicing.,88
+ICICIPRULI,pro,P11,Revenue growing slower than profits shows improving operating leverage and scale benefits.,82
+ICICIPRULI,con,C10,Return on capital employed below 10% suggests weak capital efficiency.,82
+INDIGO,pro,P1,Consistently high return on equity above 20% demonstrates exceptional capital efficiency.,90
+INDIGO,pro,P2,Strong free cash flow generation signals healthy business fundamentals.,85
+INDIGO,pro,P4,Revenue growing above 15% CAGR reflects strong business momentum.,88
+INDIGO,pro,P6,Profit compounding above 20% creates shareholder value.,90
+INDIGO,pro,P7,Very high interest coverage ratio reflects negligible financial stress from debt servicing.,88
+INDIGO,pro,P8,Consistent dividend yield above 2% backed by positive free cash flow.,85
+INDIGO,pro,P9,Earnings per share growing above 15% CAGR indicates strong earnings quality and compounding.,90
+INDIGO,pro,P10,Return on equity improving for 3 consecutive years shows strengthening business quality.,88
+INDUSINDBK,pro,P10,Return on equity improving for 3 consecutive years shows strengthening business quality.,88
+INDUSINDBK,con,C1,Debt-to-equity ratio of 6.89 is elevated.,90
+INDUSINDBK,con,C2,Negative free cash flow raises concern about cash generation.,85
+INDUSINDBK,con,C10,Return on capital employed below 10% suggests weak capital efficiency.,82
+INFY,pro,P1,Consistently high return on equity above 20% demonstrates exceptional capital efficiency.,90
+INFY,pro,P2,Strong free cash flow generation signals healthy business fundamentals.,85
+INFY,pro,P7,Very high interest coverage ratio reflects negligible financial stress from debt servicing.,88
+INFY,pro,P8,Consistent dividend yield above 2% backed by positive free cash flow.,85
+INFY,pro,P11,Revenue growing slower than profits shows improving operating leverage and scale benefits.,82
+IOC,pro,P1,Consistently high return on equity above 20% demonstrates exceptional capital efficiency.,90
+IOC,pro,P2,Strong free cash flow generation signals healthy business fundamentals.,85
+IOC,pro,P6,Profit compounding above 20% creates shareholder value.,90
+IOC,pro,P9,Earnings per share growing above 15% CAGR indicates strong earnings quality and compounding.,90
+IOC,con,C3,Operating margin is weak.,80
+IRCTC,pro,P1,Consistently high return on equity above 20% demonstrates exceptional capital efficiency.,90
+IRCTC,pro,P2,Strong free cash flow generation signals healthy business fundamentals.,85
+IRCTC,pro,P7,Very high interest coverage ratio reflects negligible financial stress from debt servicing.,88
+IRCTC,pro,P9,Earnings per share growing above 15% CAGR indicates strong earnings quality and compounding.,90
+IRFC,pro,P2,Strong free cash flow generation signals healthy business fundamentals.,85
+IRFC,pro,P8,Consistent dividend yield above 2% backed by positive free cash flow.,85
+IRFC,con,C1,Debt-to-equity ratio of 8.38 is elevated.,90
+IRFC,con,C6,Interest coverage below 1.5 indicates debt servicing risk.,90
+IRFC,con,C10,Return on capital employed below 10% suggests weak capital efficiency.,82
+ITC,pro,P1,Consistently high return on equity above 20% demonstrates exceptional capital efficiency.,90
+ITC,pro,P2,Strong free cash flow generation signals healthy business fundamentals.,85
+ITC,pro,P7,Very high interest coverage ratio reflects negligible financial stress from debt servicing.,88
+ITC,pro,P8,Consistent dividend yield above 2% backed by positive free cash flow.,85
+ITC,pro,P11,Revenue growing slower than profits shows improving operating leverage and scale benefits.,82
+JINDALSTEL,con,C2,Negative free cash flow raises concern about cash generation.,85
+JIOFIN,pro,P2,Strong free cash flow generation signals healthy business fundamentals.,85
+JIOFIN,pro,P3,Debt-free balance sheet provides financial flexibility.,95
+JIOFIN,pro,P7,Very high interest coverage ratio reflects negligible financial stress from debt servicing.,88
+JIOFIN,pro,P8,Consistent dividend yield above 2% backed by positive free cash flow.,85
+JIOFIN,con,C10,Return on capital employed below 10% suggests weak capital efficiency.,82
+JSWENERGY,con,C2,Negative free cash flow raises concern about cash generation.,85
+JSWENERGY,con,C10,Return on capital employed below 10% suggests weak capital efficiency.,82
+JSWENERGY,con,C8,Debt-to-equity ratio has increased for three consecutive years.,85
+JSWSTEEL,pro,P4,Revenue growing above 15% CAGR reflects strong business momentum.,88
+JSWSTEEL,pro,P11,Revenue growing slower than profits shows improving operating leverage and scale benefits.,82
+JSWSTEEL,con,C2,Negative free cash flow raises concern about cash generation.,85
+KOTAKBANK,pro,P2,Strong free cash flow generation signals healthy business fundamentals.,85
+KOTAKBANK,pro,P6,Profit compounding above 20% creates shareholder value.,90
+KOTAKBANK,pro,P9,Earnings per share growing above 15% CAGR indicates strong earnings quality and compounding.,90
+KOTAKBANK,pro,P10,Return on equity improving for 3 consecutive years shows strengthening business quality.,88
+KOTAKBANK,con,C1,Debt-to-equity ratio of 4.00 is elevated.,90
+KOTAKBANK,con,C6,Interest coverage below 1.5 indicates debt servicing risk.,90
+KOTAKBANK,con,C10,Return on capital employed below 10% suggests weak capital efficiency.,82
+LICI,pro,P1,Consistently high return on equity above 20% demonstrates exceptional capital efficiency.,90
+LICI,pro,P2,Strong free cash flow generation signals healthy business fundamentals.,85
+LICI,pro,P3,Debt-free balance sheet provides financial flexibility.,95
+LICI,pro,P6,Profit compounding above 20% creates shareholder value.,90
+LICI,pro,P7,Very high interest coverage ratio reflects negligible financial stress from debt servicing.,88
+LICI,pro,P8,Consistent dividend yield above 2% backed by positive free cash flow.,85
+LICI,con,C3,Operating margin is weak.,80
+LODHA,pro,P6,Profit compounding above 20% creates shareholder value.,90
+LODHA,pro,P9,Earnings per share growing above 15% CAGR indicates strong earnings quality and compounding.,90
+LODHA,con,C2,Negative free cash flow raises concern about cash generation.,85
+LODHA,con,C5,Revenue growth below 5% suggests weak business momentum.,85
+LT,pro,P1,Consistently high return on equity above 20% demonstrates exceptional capital efficiency.,90
+LT,pro,P2,Strong free cash flow generation signals healthy business fundamentals.,85
+LT,pro,P11,Revenue growing slower than profits shows improving operating leverage and scale benefits.,82
+LT,pro,P10,Return on equity improving for 3 consecutive years shows strengthening business quality.,88
+LT,con,C8,Debt-to-equity ratio has increased for three consecutive years.,85
+LTIM,pro,P1,Consistently high return on equity above 20% demonstrates exceptional capital efficiency.,90
+LTIM,pro,P2,Strong free cash flow generation signals healthy business fundamentals.,85
+LTIM,pro,P4,Revenue growing above 15% CAGR reflects strong business momentum.,88
+LTIM,pro,P6,Profit compounding above 20% creates shareholder value.,90
+LTIM,pro,P7,Very high interest coverage ratio reflects negligible financial stress from debt servicing.,88
+LTIM,pro,P8,Consistent dividend yield above 2% backed by positive free cash flow.,85
+LTIM,pro,P11,Revenue growing slower than profits shows improving operating leverage and scale benefits.,82
+LTIM,con,C8,Debt-to-equity ratio has increased for three consecutive years.,85
+M&M,pro,P9,Earnings per share growing above 15% CAGR indicates strong earnings quality and compounding.,90
+M&M,con,C2,Negative free cash flow raises concern about cash generation.,85
+MARUTI,pro,P2,Strong free cash flow generation signals healthy business fundamentals.,85
+MARUTI,pro,P7,Very high interest coverage ratio reflects negligible financial stress from debt servicing.,88
+MARUTI,pro,P9,Earnings per share growing above 15% CAGR indicates strong earnings quality and compounding.,90
+MARUTI,pro,P10,Return on equity improving for 3 consecutive years shows strengthening business quality.,88
+MOTHERSON,pro,P2,Strong free cash flow generation signals healthy business fundamentals.,85
+MOTHERSON,pro,P6,Profit compounding above 20% creates shareholder value.,90
+MOTHERSON,pro,P8,Consistent dividend yield above 2% backed by positive free cash flow.,85
+MOTHERSON,pro,P9,Earnings per share growing above 15% CAGR indicates strong earnings quality and compounding.,90
+MOTHERSON,pro,P10,Return on equity improving for 3 consecutive years shows strengthening business quality.,88
+MOTHERSON,con,C3,Operating margin is weak.,80
+NAUKRI,pro,P4,Revenue growing above 15% CAGR reflects strong business momentum.,88
+NAUKRI,pro,P7,Very high interest coverage ratio reflects negligible financial stress from debt servicing.,88
+NAUKRI,pro,P11,Revenue growing slower than profits shows improving operating leverage and scale benefits.,82
+NAUKRI,con,C2,Negative free cash flow raises concern about cash generation.,85
+NAUKRI,con,C10,Return on capital employed below 10% suggests weak capital efficiency.,82
+NAUKRI,con,C8,Debt-to-equity ratio has increased for three consecutive years.,85
+NESTLEIND,pro,P1,Consistently high return on equity above 20% demonstrates exceptional capital efficiency.,90
+NESTLEIND,pro,P2,Strong free cash flow generation signals healthy business fundamentals.,85
+NESTLEIND,pro,P7,Very high interest coverage ratio reflects negligible financial stress from debt servicing.,88
+NESTLEIND,pro,P8,Consistent dividend yield above 2% backed by positive free cash flow.,85
+NHPC,pro,P2,Strong free cash flow generation signals healthy business fundamentals.,85
+NHPC,con,C5,Revenue growth below 5% suggests weak business momentum.,85
+NHPC,con,C10,Return on capital employed below 10% suggests weak capital efficiency.,82
+NHPC,con,C8,Debt-to-equity ratio has increased for three consecutive years.,85
+NTPC,pro,P2,Strong free cash flow generation signals healthy business fundamentals.,85
+ONGC,pro,P2,Strong free cash flow generation signals healthy business fundamentals.,85
+ONGC,pro,P6,Profit compounding above 20% creates shareholder value.,90
+ONGC,pro,P9,Earnings per share growing above 15% CAGR indicates strong earnings quality and compounding.,90
+PFC,pro,P1,Consistently high return on equity above 20% demonstrates exceptional capital efficiency.,90
+PFC,pro,P6,Profit compounding above 20% creates shareholder value.,90
+PFC,pro,P9,Earnings per share growing above 15% CAGR indicates strong earnings quality and compounding.,90
+PFC,con,C1,Debt-to-equity ratio of 8.52 is elevated.,90
+PFC,con,C2,Negative free cash flow raises concern about cash generation.,85
+PFC,con,C6,Interest coverage below 1.5 indicates debt servicing risk.,90
+PFC,con,C10,Return on capital employed below 10% suggests weak capital efficiency.,82
+PIDILITIND,pro,P1,Consistently high return on equity above 20% demonstrates exceptional capital efficiency.,90
+PIDILITIND,pro,P2,Strong free cash flow generation signals healthy business fundamentals.,85
+PIDILITIND,pro,P7,Very high interest coverage ratio reflects negligible financial stress from debt servicing.,88
+PIDILITIND,pro,P11,Revenue growing slower than profits shows improving operating leverage and scale benefits.,82
+PNB,pro,P1,Consistently high return on equity above 20% demonstrates exceptional capital efficiency.,90
+PNB,con,C1,Debt-to-equity ratio of 3.68 is elevated.,90
+PNB,con,C2,Negative free cash flow raises concern about cash generation.,85
+PNB,con,C5,Revenue growth below 5% suggests weak business momentum.,85
+PNB,con,C10,Return on capital employed below 10% suggests weak capital efficiency.,82
+POWERGRID,pro,P2,Strong free cash flow generation signals healthy business fundamentals.,85
+POWERGRID,pro,P8,Consistent dividend yield above 2% backed by positive free cash flow.,85
+POWERGRID,pro,P11,Revenue growing slower than profits shows improving operating leverage and scale benefits.,82
+POWERGRID,con,C5,Revenue growth below 5% suggests weak business momentum.,85
+RECLTD,pro,P1,Consistently high return on equity above 20% demonstrates exceptional capital efficiency.,90
+RECLTD,pro,P6,Profit compounding above 20% creates shareholder value.,90
+RECLTD,pro,P9,Earnings per share growing above 15% CAGR indicates strong earnings quality and compounding.,90
+RECLTD,con,C1,Debt-to-equity ratio of 6.42 is elevated.,90
+RECLTD,con,C2,Negative free cash flow raises concern about cash generation.,85
+RELIANCE,pro,P2,Strong free cash flow generation signals healthy business fundamentals.,85
+RELIANCE,pro,P8,Consistent dividend yield above 2% backed by positive free cash flow.,85
+RELIANCE,con,C10,Return on capital employed below 10% suggests weak capital efficiency.,82
+SBILIFE,pro,P3,Debt-free balance sheet provides financial flexibility.,95
+SBILIFE,pro,P4,Revenue growing above 15% CAGR reflects strong business momentum.,88
+SBILIFE,pro,P7,Very high interest coverage ratio reflects negligible financial stress from debt servicing.,88
+SBILIFE,pro,P11,Revenue growing slower than profits shows improving operating leverage and scale benefits.,82
+SBILIFE,con,C2,Negative free cash flow raises concern about cash generation.,85
+SBILIFE,con,C3,Operating margin is weak.,80
+SBIN,pro,P2,Strong free cash flow generation signals healthy business fundamentals.,85
+SBIN,pro,P6,Profit compounding above 20% creates shareholder value.,90
+SBIN,pro,P9,Earnings per share growing above 15% CAGR indicates strong earnings quality and compounding.,90
+SBIN,con,C3,Operating margin is weak.,80
+SBIN,con,C6,Interest coverage below 1.5 indicates debt servicing risk.,90
+SBIN,con,C10,Return on capital employed below 10% suggests weak capital efficiency.,82
+SHREECEM,pro,P2,Strong free cash flow generation signals healthy business fundamentals.,85
+SHREECEM,pro,P7,Very high interest coverage ratio reflects negligible financial stress from debt servicing.,88
+SHREECEM,pro,P8,Consistent dividend yield above 2% backed by positive free cash flow.,85
+SHREECEM,pro,P11,Revenue growing slower than profits shows improving operating leverage and scale benefits.,82
+SHRIRAMFIN,pro,P4,Revenue growing above 15% CAGR reflects strong business momentum.,88
+SHRIRAMFIN,pro,P6,Profit compounding above 20% creates shareholder value.,90
+SHRIRAMFIN,pro,P9,Earnings per share growing above 15% CAGR indicates strong earnings quality and compounding.,90
+SHRIRAMFIN,pro,P10,Return on equity improving for 3 consecutive years shows strengthening business quality.,88
+SHRIRAMFIN,con,C1,Debt-to-equity ratio of 3.99 is elevated.,90
+SHRIRAMFIN,con,C2,Negative free cash flow raises concern about cash generation.,85
+SHRIRAMFIN,con,C6,Interest coverage below 1.5 indicates debt servicing risk.,90
+SIEMENS,pro,P2,Strong free cash flow generation signals healthy business fundamentals.,85
+SIEMENS,pro,P7,Very high interest coverage ratio reflects negligible financial stress from debt servicing.,88
+SIEMENS,pro,P8,Consistent dividend yield above 2% backed by positive free cash flow.,85
+SIEMENS,pro,P9,Earnings per share growing above 15% CAGR indicates strong earnings quality and compounding.,90
+SIEMENS,pro,P10,Return on equity improving for 3 consecutive years shows strengthening business quality.,88
+SUNPHARMA,pro,P2,Strong free cash flow generation signals healthy business fundamentals.,85
+SUNPHARMA,pro,P6,Profit compounding above 20% creates shareholder value.,90
+SUNPHARMA,pro,P7,Very high interest coverage ratio reflects negligible financial stress from debt servicing.,88
+SUNPHARMA,pro,P8,Consistent dividend yield above 2% backed by positive free cash flow.,85
+SUNPHARMA,pro,P9,Earnings per share growing above 15% CAGR indicates strong earnings quality and compounding.,90
+TATACONSUM,pro,P2,Strong free cash flow generation signals healthy business fundamentals.,85
+TATACONSUM,pro,P6,Profit compounding above 20% creates shareholder value.,90
+TATACONSUM,pro,P9,Earnings per share growing above 15% CAGR indicates strong earnings quality and compounding.,90
+TATACONSUM,con,C8,Debt-to-equity ratio has increased for three consecutive years.,85
+TATAMOTORS,pro,P1,Consistently high return on equity above 20% demonstrates exceptional capital efficiency.,90
+TATAMOTORS,pro,P2,Strong free cash flow generation signals healthy business fundamentals.,85
+TATAMOTORS,pro,P8,Consistent dividend yield above 2% backed by positive free cash flow.,85
+TATAMOTORS,pro,P11,Revenue growing slower than profits shows improving operating leverage and scale benefits.,82
+TATAMOTORS,pro,P10,Return on equity improving for 3 consecutive years shows strengthening business quality.,88
+TATAPOWER,pro,P2,Strong free cash flow generation signals healthy business fundamentals.,85
+TATAPOWER,pro,P4,Revenue growing above 15% CAGR reflects strong business momentum.,88
+TATAPOWER,pro,P6,Profit compounding above 20% creates shareholder value.,90
+TATAPOWER,pro,P9,Earnings per share growing above 15% CAGR indicates strong earnings quality and compounding.,90
+TATASTEEL,pro,P2,Strong free cash flow generation signals healthy business fundamentals.,85
+TATASTEEL,con,C10,Return on capital employed below 10% suggests weak capital efficiency.,82
+TATASTEEL,con,C8,Debt-to-equity ratio has increased for three consecutive years.,85
+TCS,pro,P1,Consistently high return on equity above 20% demonstrates exceptional capital efficiency.,90
+TCS,pro,P2,Strong free cash flow generation signals healthy business fundamentals.,85
+TCS,pro,P7,Very high interest coverage ratio reflects negligible financial stress from debt servicing.,88
+TCS,pro,P11,Revenue growing slower than profits shows improving operating leverage and scale benefits.,82
+TCS,pro,P10,Return on equity improving for 3 consecutive years shows strengthening business quality.,88
+TECHM,pro,P2,Strong free cash flow generation signals healthy business fundamentals.,85
+TECHM,pro,P7,Very high interest coverage ratio reflects negligible financial stress from debt servicing.,88
+TECHM,pro,P11,Revenue growing slower than profits shows improving operating leverage and scale benefits.,82
+TECHM,con,C5,Revenue growth below 5% suggests weak business momentum.,85
+TECHM,con,C7,Dividend payout ratio above 100% may be unsustainable.,90
+TITAN,pro,P1,Consistently high return on equity above 20% demonstrates exceptional capital efficiency.,90
+TITAN,pro,P2,Strong free cash flow generation signals healthy business fundamentals.,85
+TITAN,pro,P4,Revenue growing above 15% CAGR reflects strong business momentum.,88
+TITAN,pro,P8,Consistent dividend yield above 2% backed by positive free cash flow.,85
+TITAN,pro,P9,Earnings per share growing above 15% CAGR indicates strong earnings quality and compounding.,90
+TITAN,pro,P11,Revenue growing slower than profits shows improving operating leverage and scale benefits.,82
+TITAN,pro,P10,Return on equity improving for 3 consecutive years shows strengthening business quality.,88
+TITAN,con,C3,Operating margin is weak.,80
+TITAN,con,C8,Debt-to-equity ratio has increased for three consecutive years.,85
+TORNTPHARM,pro,P1,Consistently high return on equity above 20% demonstrates exceptional capital efficiency.,90
+TORNTPHARM,pro,P2,Strong free cash flow generation signals healthy business fundamentals.,85
+TORNTPHARM,pro,P7,Very high interest coverage ratio reflects negligible financial stress from debt servicing.,88
+TORNTPHARM,pro,P10,Return on equity improving for 3 consecutive years shows strengthening business quality.,88
+TRENT,pro,P1,Consistently high return on equity above 20% demonstrates exceptional capital efficiency.,90
+TRENT,pro,P2,Strong free cash flow generation signals healthy business fundamentals.,85
+TRENT,pro,P4,Revenue growing above 15% CAGR reflects strong business momentum.,88
+TRENT,pro,P6,Profit compounding above 20% creates shareholder value.,90
+TRENT,pro,P7,Very high interest coverage ratio reflects negligible financial stress from debt servicing.,88
+TRENT,pro,P8,Consistent dividend yield above 2% backed by positive free cash flow.,85
+TRENT,pro,P9,Earnings per share growing above 15% CAGR indicates strong earnings quality and compounding.,90
+TRENT,pro,P10,Return on equity improving for 3 consecutive years shows strengthening business quality.,88
+TVSMOTOR,pro,P1,Consistently high return on equity above 20% demonstrates exceptional capital efficiency.,90
+TVSMOTOR,pro,P4,Revenue growing above 15% CAGR reflects strong business momentum.,88
+TVSMOTOR,pro,P6,Profit compounding above 20% creates shareholder value.,90
+TVSMOTOR,pro,P9,Earnings per share growing above 15% CAGR indicates strong earnings quality and compounding.,90
+TVSMOTOR,pro,P10,Return on equity improving for 3 consecutive years shows strengthening business quality.,88
+TVSMOTOR,con,C1,Debt-to-equity ratio of 3.83 is elevated.,90
+TVSMOTOR,con,C2,Negative free cash flow raises concern about cash generation.,85
+ADANIPORTS,con,DEFAULT,Business should continue to be monitored for future risks.,65
+ADANIPOWER,con,DEFAULT,Business should continue to be monitored for future risks.,65
+APOLLOHOSP,con,DEFAULT,Business should continue to be monitored for future risks.,65
+ATGL,con,DEFAULT,Business should continue to be monitored for future risks.,65
+BAJAJ-AUTO,con,DEFAULT,Business should continue to be monitored for future risks.,65
+BAJAJHLDNG,con,DEFAULT,Business should continue to be monitored for future risks.,65
+BOSCHLTD,con,DEFAULT,Business should continue to be monitored for future risks.,65
+BRITANNIA,con,DEFAULT,Business should continue to be monitored for future risks.,65
+CIPLA,con,DEFAULT,Business should continue to be monitored for future risks.,65
+COALINDIA,con,DEFAULT,Business should continue to be monitored for future risks.,65
+DIVISLAB,con,DEFAULT,Business should continue to be monitored for future risks.,65
+DRREDDY,con,DEFAULT,Business should continue to be monitored for future risks.,65
+HCLTECH,con,DEFAULT,Business should continue to be monitored for future risks.,65
+HEROMOTOCO,con,DEFAULT,Business should continue to be monitored for future risks.,65
+HINDALCO,con,DEFAULT,Business should continue to be monitored for future risks.,65
+INDIGO,con,DEFAULT,Business should continue to be monitored for future risks.,65
+INFY,con,DEFAULT,Business should continue to be monitored for future risks.,65
+IRCTC,con,DEFAULT,Business should continue to be monitored for future risks.,65
+ITC,con,DEFAULT,Business should continue to be monitored for future risks.,65
+JINDALSTEL,pro,DEFAULT,Business shows stable long-term operating performance.,65
+JSWENERGY,pro,DEFAULT,Business shows stable long-term operating performance.,65
+MARUTI,con,DEFAULT,Business should continue to be monitored for future risks.,65
+NESTLEIND,con,DEFAULT,Business should continue to be monitored for future risks.,65
+NTPC,con,DEFAULT,Business should continue to be monitored for future risks.,65
+ONGC,con,DEFAULT,Business should continue to be monitored for future risks.,65
+PIDILITIND,con,DEFAULT,Business should continue to be monitored for future risks.,65
+SHREECEM,con,DEFAULT,Business should continue to be monitored for future risks.,65
+SIEMENS,con,DEFAULT,Business should continue to be monitored for future risks.,65
+SUNPHARMA,con,DEFAULT,Business should continue to be monitored for future risks.,65
+TATAMOTORS,con,DEFAULT,Business should continue to be monitored for future risks.,65
+TATAPOWER,con,DEFAULT,Business should continue to be monitored for future risks.,65
+TCS,con,DEFAULT,Business should continue to be monitored for future risks.,65
+TORNTPHARM,con,DEFAULT,Business should continue to be monitored for future risks.,65
+TRENT,con,DEFAULT,Business should continue to be monitored for future risks.,65
